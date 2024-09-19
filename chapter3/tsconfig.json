@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+		"outDir": "./dist",
+		"rootDir": "./src",
+		"strict": true,
+		"module": "commonjs",
+		    "forceConsistentCasingInFileNames": true,            /* Ensure that casing is correct in imports. */
+		    "skipLibCheck": true   ,                              /* Skip type checking all .d.ts files. */
+		    "target": "es2020",                                  /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+	},
+	"include": [
+		"src/**/*.ts"
+	],
+	"exclude": [
+		"node_modules"
+	]
+}
